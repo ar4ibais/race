@@ -84,6 +84,13 @@ body {
   }
 }
 
+.shablon {
+  background-image: url(../images/shablon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #460606;
+}
+
 .container {
   max-width: 1800px;
   padding: 0 10px;
