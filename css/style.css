@@ -227,6 +227,9 @@ body {
   .header__inner {
     font-size: 22px;
   }
+  .footer__inner {
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 750px) {
