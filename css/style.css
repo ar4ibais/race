@@ -57,7 +57,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  background-color: #460606;
+  background-color: #470606;
   background-image: url(../images/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -86,9 +86,9 @@ body {
 
 .shablon {
   background-image: url(../images/shablon.png);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-color: #460606;
+  background-color: #4f0101;
 }
 
 .container {
