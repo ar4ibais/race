@@ -2,7 +2,18 @@ window.addEventListener('DOMContentLoaded', () => {
     const eng = document.querySelector('.eng'),
           rus = document.querySelector('.rus'),
           rusBtnEng = document.querySelector('.header__lang-rus--eng'),
-          engBtnRus = document.querySelector('.header__lang-eng--rus');
+          engBtnRus = document.querySelector('.header__lang-eng--rus'),
+          langs = document.querySelector('.header__langs'),
+          langIconRus = document.querySelector('.header__switch-icon--rus'),
+          langIconEng = document.querySelector('.header__switch-icon--eng');
+
+    langIconRus.addEventListener('click', () => {
+        langs.classList.toggle('header__langs--active');
+    });
+
+    langIconEng.addEventListener('click', () => {
+        langs.classList.toggle('header__langs--active');
+    });
 
     rusBtnEng.addEventListener('click', () => {
         eng.classList.add('hide');
