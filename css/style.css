@@ -58,7 +58,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   background-color: #470606;
-  background-image: url(../images/bg.webp);
+  background-image: url(../images/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -74,7 +74,6 @@ body {
 .fade{
   animation-name: fade; animation-duration: 1.5s;
 }
-
 @keyframes fade{
   from {
     opacity: 0.1;
@@ -85,7 +84,7 @@ body {
 }
 
 .shablon {
-  background-image: url(../images/shablon.webp);
+  background-image: url(../images/shablon.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: #4f0101;
@@ -123,14 +122,11 @@ body {
 }
 
 .header__langs {
-  position: absolute;
-  right: 10px;
-  top: -300px;
-  transition: all .3s;
+  display: flex;
 }
 
-.header__langs--active {
-  top: 65px;
+.header__lang {
+  font-size: 30px;
 }
 
 .header__lang-eng,
@@ -138,8 +134,8 @@ body {
   cursor: pointer;
 }
 
-.header__lang-eng {
-  margin-top: 10px;
+.header__lang-rus {
+  margin-left: 10px;
 }
 
 .hero {
@@ -244,6 +240,9 @@ body {
   .menu__link + .menu__link {
     margin-left: 30px;
   }
+  .header__lang {
+    font-size: 26px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -258,6 +257,9 @@ body {
   }
   .footer__inner {
     margin: 0 auto;
+  }
+  .header__lang {
+    font-size: 25px;
   }
 }
 
@@ -299,6 +301,9 @@ body {
   }
   .footer__phone {
     margin-bottom: 8px;
+  }
+  .header__lang {
+    font-size: 22px;
   }
 }
 
@@ -350,6 +355,12 @@ body {
   .footer__inst {
     margin-right: 10px;
   }
+  .header__lang {
+    font-size: 16px;
+  }
+  .header__lang-rus {
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 475px) {
@@ -364,11 +375,11 @@ body {
     width: 30px;
     height: 15px;
   }
-  .header__lang-eng {
-    margin-top: 7px;
-  }
   .menu__link + .menu__link {
     margin-left: 6px;
+  }
+  .header__lang {
+    font-size: 12px;
   }
 }
 
