@@ -251,6 +251,40 @@ body {
   margin-right: 10px;
 }
 
+.news__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.news__item img {
+  max-width: 990px;
+}
+
+.news__item-content {
+  text-align: center;
+}
+
+.news__item-title {
+  font-size: 41px;
+  margin-bottom: 50px;
+}
+
+.news__item-text {
+  font-size: 34px;
+}
+
+.news__cut {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1700px) {
+  .news__item img {
+    max-width: 800px;
+  }
+}
+
 @media (max-width: 1350px) {
   .header__inner {
     font-size: 40px;
@@ -276,6 +310,16 @@ body {
   .partners__item p {
     font-size: 22px;
   }
+  .news__item img {
+    max-width: 650px;
+  }
+  .news__item-title {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .news__item-text {
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 1150px) {
@@ -290,6 +334,16 @@ body {
   }
   .partners__item p {
     font-size: 19px;
+  }
+  .news__item img {
+    max-width: 600px;
+  }
+  .news__item-title {
+    font-size: 27px;
+    margin-bottom: 50px;
+  }
+  .news__item-text {
+    font-size: 22px;
   }
 }
 
@@ -318,6 +372,17 @@ body {
   }
   .partners__item--4 b {
     margin-right: 0px;
+  }
+  .news__item {
+    display: block;
+    margin-bottom: 90px;
+  }
+  .news__item img {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .news__item-title {
+    margin-bottom: 30px;
   }
 }
 
@@ -361,6 +426,18 @@ body {
   }
   .partners__item p {
     font-size: 17px;
+  }
+  .news__item {
+    margin-bottom: 70px;
+  }
+  .news__item img {
+    max-width: 550px;
+  }
+  .news__item-title {
+    font-size: 25px;
+  }
+  .news__item-text {
+    font-size: 20px;
   }
 }
 
@@ -420,6 +497,15 @@ body {
   .contacts__item {
     font-size: 22px;
   }
+  .news__item img {
+    max-width: 450px;
+  }
+  .news__item-title {
+    font-size: 20px;
+  }
+  .news__item-text {
+    font-size: 17px;
+  }
 }
 
 @media (max-width: 475px) {
@@ -461,6 +547,24 @@ body {
   }
   .contacts__item:first-child {
     margin-top: -150px;
+  }
+  .news__item {
+    margin-bottom: 50px;
+  }
+  .news__item img {
+    margin-top: -150px;
+    max-width: 350px;
+    margin-bottom: 20px;
+  }
+  .news__cut {
+    max-width: 220px;
+    margin: 0 auto;
+  }
+  .news__item-title {
+    font-size: 14px;
+  }
+  .news__item-text {
+    font-size: 12px;
   }
 }
 
