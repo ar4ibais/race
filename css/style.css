@@ -280,10 +280,8 @@ body {
 }
 
 .watermark {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .watermark img {
@@ -400,6 +398,9 @@ body {
     margin-bottom: 30px;
   }
   .news__item-title {
+    margin-bottom: 30px;
+  }
+  footer {
     margin-bottom: 30px;
   }
 }
@@ -596,13 +597,7 @@ body {
     font-size: 12px;
   }
   footer {
-    margin-bottom: 70px;
-  }
-  .watermark {
-    bottom: -3px;
-  }
-  .watermark img {
-    margin-left: 0;
+    margin-bottom: 10px;
   }
   .watermark p {
     font-size: 11px;
