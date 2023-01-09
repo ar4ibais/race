@@ -312,6 +312,11 @@ body {
   margin-top: 20px; 
 }
 
+.menu__link i {
+  font-size: 60px;
+}
+
+
 
 
 
@@ -369,6 +374,9 @@ body {
   .media__link p {
     font-size: 30px;
   }
+  .menu__link i {
+    font-size: 50px;
+  }
 }
 
 @media (max-width: 1150px) {
@@ -400,6 +408,9 @@ body {
   }
   .media__link p {
     font-size: 24px;
+  }
+  .menu__link i {
+    font-size: 45px;
   }
 }
 
@@ -442,6 +453,9 @@ body {
   }
   footer {
     margin-bottom: 30px;
+  }
+  .menu__link i {
+    font-size: 35px;
   }
 }
 
@@ -576,6 +590,9 @@ body {
   .news__item-text {
     font-size: 17px;
   }
+  .menu__link i {
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 475px) {
@@ -651,6 +668,9 @@ body {
   }
   .media__link p {
     font-size: 16px;
+  }
+  .menu__link i {
+    font-size: 17px;
   }
 }
 
