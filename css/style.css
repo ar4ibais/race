@@ -227,12 +227,17 @@ body {
 }
 
 .partners__item--4 img {
-  max-width: 300px;
+  max-width: 250px;
   margin-right: 75px;
 }
-
 .partners__item--4 b {
   margin-right: 200px;
+}
+.partners__item--5 {
+  align-items: center;
+}
+.partners__item--5 b {
+  margin-right: 400px;
 }
 
 .partners__item p {
@@ -610,17 +615,17 @@ body {
     font-size: 12px;
   }
   .partners__item {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
   }
   .partners__item:first-child {
     margin-top: -150px;
   }
   .partners__item img {
-    max-width: 200px;
+    max-width: 130px;
     margin-bottom: 25px;
   }
   .partners__item--4 img {
-    max-width: 150px;
+    max-width: 80px;
   }
   .partners__item p {
     font-size: 11px;
