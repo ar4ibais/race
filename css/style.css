@@ -209,6 +209,12 @@ body {
   margin-right: 25px;
 }
 
+.footer__wiki {
+  width: 70px;
+  height: 50px;
+  margin-left: 25px;
+}
+
 .partners__item {
   display: flex;
   justify-content: space-between;
@@ -237,7 +243,10 @@ body {
   align-items: center;
 }
 .partners__item--5 b {
-  margin-right: 400px;
+  margin-right: 300px;
+}
+.rus_b {
+  margin-right: 150px !important; 
 }
 
 .partners__item p {
@@ -421,7 +430,7 @@ body {
 
 @media (max-width: 992px) {
   body {
-    background-image: url(../images/bg-mob.webp);
+    background-image: url(../images/bg-mob.png);
   }
   .shablon {
     background-image: url(../images/shablon-mob.webp);
@@ -573,6 +582,10 @@ body {
   }
   .footer__links img {
     width: 45px;
+  }
+  .footer__wiki {
+    width: 45px;
+    margin-left: 10px;
   }
   .header__lang {
     font-size: 16px;
