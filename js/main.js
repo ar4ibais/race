@@ -23,4 +23,25 @@ window.addEventListener('DOMContentLoaded', () => {
         eng.classList.add('fade');
         eng.classList.remove('hide');
     });
+
+});
+const swiper = new Swiper('.swiper', {
+    loop: true,
+    navigation: {
+      nextEl: '.photoes__next',
+      prevEl: '.photoes__prev',
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+            centeredSlides: true,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        1040: {
+            slidesPerView: 3,
+            spaceBetween: 20
+        }
+    }
 });

@@ -289,8 +289,10 @@ body {
 }
 
 .news__cut {
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  width: 80px;
+  height: 3px;
+  background-color: #fff;
 }
 
 .watermark {
@@ -329,6 +331,50 @@ body {
 .menu__link i {
   font-size: 60px;
 }
+
+.swiper {
+  max-width: 1000px;
+  height: 600px;
+}
+
+.swiper-slide img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+}
+
+.photoes {
+  position: relative;
+}
+
+.photoes__prev,
+.photoes__next {
+  position: absolute;
+  bottom: 130px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.photoes__prev {
+  left: 420px;
+}
+.photoes__next {
+  right: 420px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -471,6 +517,12 @@ body {
   .menu__link i {
     font-size: 35px;
   }
+  .photoes__prev {
+    left: 300px;
+  }
+  .photoes__next {
+    right: 300px;
+  }
 }
 
 @media (max-width: 750px) {
@@ -534,6 +586,12 @@ body {
     width: 40px;
     height: 40px;
   }
+  .photoes__prev {
+    left: 250px;
+  }
+  .photoes__next {
+    right: 250px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -584,7 +642,7 @@ body {
     width: 45px;
   }
   .footer__wiki {
-    width: 45px;
+    width: 47px;
     margin-left: 10px;
   }
   .header__lang {
@@ -610,6 +668,12 @@ body {
   }
   .menu__link i {
     font-size: 25px;
+  }
+  .photoes__prev {
+    left: 150px;
+  }
+  .photoes__next {
+    right: 150px;
   }
 }
 
@@ -662,8 +726,10 @@ body {
     margin-bottom: 20px;
   }
   .news__cut {
-    max-width: 220px;
+    max-width: 70px;
     margin: 0 auto;
+    height: 2px;
+    background-color: #fff;
   }
   .news__item-title {
     font-size: 14px;
@@ -690,6 +756,18 @@ body {
   .menu__link i {
     font-size: 17px;
   }
+  .photoes {
+    margin-top: -150px;
+  }
+  .photoes__prev {
+    left: 130px;
+  }
+  .photoes__next {
+    right: 120px;
+  }
+  .swiper-slide img {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 400px) {
@@ -713,5 +791,11 @@ body {
   }
   .media__inner {
     margin-top: -100px;
+  }
+  .photoes__prev {
+    left: 110px;
+  }
+  .photoes__next {
+    right: 110px;
   }
 }
