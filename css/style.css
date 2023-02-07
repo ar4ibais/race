@@ -353,6 +353,8 @@ body {
   bottom: 130px;
   cursor: pointer;
   z-index: 10;
+  max-width: 100px;
+  object-fit: cover;
 }
 
 .photoes__prev {
@@ -760,13 +762,16 @@ body {
     margin-top: -150px;
   }
   .photoes__prev {
-    left: 130px;
+    left: 118px;
   }
   .photoes__next {
-    right: 120px;
+    right: 108px;
   }
   .swiper-slide img {
     width: 100% !important;
+  }
+  .container__media {
+    padding: 23px;
   }
 }
 
