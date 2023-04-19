@@ -728,7 +728,11 @@ body {
     margin-top: -150px;
   }
   .news__item {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+  }
+  .news__item--2 {
+    margin-bottom: 20px;
+    margin-top: 160px;
   }
   .news__item img {
     margin-top: -150px;
